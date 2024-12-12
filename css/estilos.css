@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gravitas+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.btn:focus {
+    outline: none;  
+    box-shadow: none !important;  
+}
+
+a {
+    font-family: "Bebas Neue";
+    letter-spacing: 0.2em;
+}
+
+.carousel-inner p{
+    font-family: "Bebas Neue";
+    letter-spacing: 0.5em;
+}
+
+.carousel-inner h1{
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0.1em;
+
+}
+.carousel-inner button{
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 0.1em;
+
+}
+
+.bg-header{
+    background-color: #A0937D;
+}
+
+.bg-header i {
+    color: black; 
+}
+
+
+.bg-header .icon-header i:hover {
+    color: #ccc; 
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;  
+    color: #000; 
+  }
+  
+.nav-link:hover {
+    color: #fff;  
+    border-bottom: 2px solid #fff; 
+    margin-bottom: -2px;  
+}
+
+.d-item{
+    height: 600px;
+}
+
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.bg-color{
+    background-color:#A0937D !important;
+    border: 2px solid #A0937D  !important; 
+    color: white !important; 
+    box-shadow: none !important; 
+}
+
+.bg-color:hover {
+    background-color: gray !important; 
+}
+
+h2{
+    font-family: "Gravitas One" ;
+    font-size: 40px !important;
+    color: #AB886D; 
+    letter-spacing: 0.4em;
+}
+
+    
+h2, h3, h4,p { 
+    text-align: center;
+}
+
+.container.bg-text h4{
+    color: #AB886D; 
+    font-weight: bold;
+    
+}
+
+.container.bg-text p {
+    color: #AB886D; 
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 0.1em;
+
+}
+
+.bg-text2 h2{
+    
+    font-family: "Bebas Neue",  cursive;
+    letter-spacing: 0.5em;
+}
+
+.bg-custom{
+    background-color: #F6E6CB;
+}
+  
+.img-fluid{
+    border-radius: 10px;
+}
+
+
+.bg-video {
+    position: relative;
+    background-image: url('../img/ivan-stern-LOLSb7m6XkU-unsplash.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(1px); 
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2; 
+}
+
+.video-promo {
+    border-radius: 20px; 
+    overflow: hidden; 
+    border: 5px solid gray; 
+}
+
+
+.bg-locales{
+    background-color: #AB886D;
+}
+
+.transparent-btn {
+    background-color: transparent !important; 
+    border: 2px solid black !important;
+    color: black !important; 
+    box-shadow: none !important; 
+    width: 100%;
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 0.1em;
+     
+}
+
+.transparent-btn:hover {
+    
+    background-color: rgba(0, 123, 255, 0.1) !important;
+    border-color: #0056b3 !important; 
+    color: #0056b3 !important; 
+}
+
+.bg-paf p{
+    font-family: "Bebas Neue";
+    letter-spacing: 0.1em;
+     
+}
+
+.ecm-tabla {
+    text-align: center;
+    width: 50%;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #4A4238; 
+}
+
+table {
+    table-layout: fixed;
+    font-family: 'Playfair Display', serif;
+    border: 3px solid #A59D84 !important; 
+}
+
+thead {
+    background-color: #F2EDE4; 
+}
+
+td {
+    text-align: center;
+    border: 2px solid #A59D84 !important; 
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.mi-tabla {
+    font-family: "Bebas Neue";
+    letter-spacing: 0.2em;
+    font-size: 20px;                
+    color: #333;                   
+}
+
+.mi-tabla th, .mi-tabla td {
+    font-weight: bold;              
+    color: #493628;                 
+}
+
+
+.bg-carta {
+    padding-right: 50px;
+}
+
+tr:hover {
+    background-color: #F2EDE4; 
+    transition: background-color 0.3s ease;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-bottom-color: #A59D84;
+}
+
+.btn-primary {
+  background-color: #A59D84;
+  border-color: #A59D84;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background-color: #8E8670;
+  border-color: #8E8670;
+}
+
+
+.form-input {
+    border: none; 
+    border-bottom: 2px solid transparent; 
+    outline: none; 
+    width: 100%; 
+    padding: 10px 0; 
+    font-size: 16px; 
+    font-weight: bold; 
+}
+
+
+.custom-hr {
+    border: none !important; 
+    height: 4px !important; 
+    background-color: black !important; 
+    border-radius: 6px !important; 
+    margin: -6px 0 16px 0 !important;  
+}
+
+
+
+
+.btn-primary {
+    font-weight: bold;
+}
+
+footer h2{
+
+    color: white;
+    letter-spacing: 0.3em;
+    font-family: "Bebas Neue", cursive;
+
+}
